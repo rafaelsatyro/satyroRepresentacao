@@ -1,3 +1,7 @@
+# Protótipo Satyro Representação Comercial
+
+https://www.figma.com/file/dmnHzyCgngbflA4yzXtuyM/Satyro-Representac%C3%B5es-Comerciais?type=design&mode=design&t=NEkbTPIQN7eBxNrR-1
+
 # Sobre o Repositório
 
 Este repositório contém o código-fonte do site da Satyro Representação Comercial, uma plataforma desenvolvida em React, HTML5 e CSS3. O projeto segue as melhores práticas de desenvolvimento web, incluindo estilização responsiva utilizando Media Queries e a navegação entre páginas é gerenciada pelo React Router DOM, garantindo uma experiência de usuário fluida.
