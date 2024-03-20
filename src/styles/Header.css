@@ -1,0 +1,274 @@
+.main-container{
+    height: 100px;
+    background-color:#D9D9D9;
+}
+.main-container-content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+}
+.logo-main-container{
+    display: flex;
+    padding: 0 0 0 2%;
+    align-items: center;
+}
+.logo-satyros{
+    height: 50px;
+}
+.navigation-main-container{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding: 0 5% 0 0;
+    align-items: center;
+    margin: 0;
+}
+.style-navigation-1{
+    font-size: 16px;
+    color: #014679;
+    font-weight: bold;
+}
+.style-navigation-2{
+    font-size: 16px;
+    color: #014679;
+    font-weight: bold;
+}
+.style-navigation-3{
+    font-size: 16px;
+    color: #014679;
+    font-weight: bold;
+}
+.style-navigation-4{
+    font-size: 16px;
+    color: #014679;
+    font-weight: bold;
+}
+.style-navigation-button{
+    height: 60px;
+    background-color: #02AB63;
+    border-radius: 8px;
+    width: 60px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+a{
+    transition: all 0.3s ease-in-out; 
+}
+
+/* Laptop */ 
+@media (min-width:1024px) and (max-width:1439px) {
+    .main-container{
+        height: 85px;
+    }
+    .logo-satyros{
+        height: 45px;
+    }
+    .style-navigation-button{
+        height: 55px;
+        width: 55px;
+    }
+}
+
+/* Tablet CSS */ 
+@media (min-width:768px) and (max-width:1023px) {
+    .main-container{
+        height: 80px;
+    }
+    .logo-satyros{
+        height: 35px;
+    }
+    .logo-main-container{
+        padding: 0 0% 0 3%;
+    }
+    .navigation-main-container{
+        padding: 0 3% 0 0;
+        gap: 20px;
+    }
+    .style-navigation-1{
+        font-size: 14px;
+    }
+    .style-navigation-2{
+        font-size: 14px;
+    }
+    .style-navigation-3{
+        font-size: 14px;
+    }
+    .style-navigation-4{
+        font-size: 14px;
+    }
+    .style-navigation-button{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Mobile Large CSS */ 
+@media (min-width:425px) and (max-width:767px){ 
+    .main-container{
+        height: 80px;
+        width: 100%;
+    }
+    .logo-satyros{
+        height: 30px;
+    }
+    .main-container-content{
+        padding: 0 5% 0 5%;  
+    }
+    .navigation-main-container{
+        padding: 0 1% 0 0;
+        gap: 10px;
+    }
+    .style-navigation-1{
+        font-size: 13px;
+    }
+    .style-navigation-2{
+        font-size: 13px;
+    }
+    .style-navigation-3{
+        display: none;
+    }
+    .style-navigation-4{
+        display: none;
+    } 
+    .style-navigation-button{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* Mopbile Medium CSS */
+@media (min-width:375px) and (max-width:424px){  
+    .main-container{
+        height: 80px;
+        width: 100%;
+    }
+    .logo-satyros{
+        height: 30px;
+    }
+    .main-container-content{
+        padding: 0 5% 0 5%;
+    }
+    .navigation-main-container{
+        padding: 0 1% 0 0;
+        gap: 10px;
+    }
+    .style-navigation-1{
+        font-size: 12px;
+    }
+    .style-navigation-2{
+        font-size: 12px;
+    }
+    .style-navigation-3{
+        display: none;
+    }
+    .style-navigation-4{
+        display: none;
+    } 
+    .style-navigation-button{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Mobile Small CSS */
+@media (min-width:320px) and (max-width:374px){ 
+    .main-container{
+        height: 70px;
+    }
+    .logo-satyros{
+        height: 25px;
+    }
+    .main-container-content{
+        padding: 0 3% 0 3%;
+    }
+    .navigation-main-container{
+        padding: 0 1% 0 0;
+        gap: 15px;
+    }
+    .style-navigation-1{
+        font-size: 10px;
+    }
+    .style-navigation-2{
+        font-size: 10px;
+    }
+    .style-navigation-3{
+        display: none;
+    }
+    .style-navigation-4{
+        display: none;
+    } 
+    .style-navigation-button{
+        width: 40px;
+        height: 40px;
+    }
+}
+/* Mopbile Medium CSS */
+@media (min-width:375px) and (max-width:766px){  
+    .main-container{
+        height: 70px;
+    }
+    .logo-satyros{
+        height: 25px;
+    }
+    .main-container-content{
+        padding: 0 3% 0 3%;
+    }
+    .navigation-main-container{
+        padding: 0 1% 0 0;
+        gap: 15px;
+    }
+    .style-navigation-1{
+        font-size: 10px;
+    }
+    .style-navigation-2{
+        font-size: 10px;
+    }
+    .style-navigation-3{
+        display: none;
+    }
+    .style-navigation-4{
+        display: none;
+    } 
+    .style-navigation-button{
+        width: 40px;
+        height: 40px;
+    }
+}
+/* Mobile Small CSS */
+@media (max-width:374px){ 
+    .main-container{
+        height: 70px;
+    }
+    .logo-satyros{
+        height: 25px;
+    }
+    .main-container-content{
+        padding: 0 3% 0 3%;
+    }
+    .navigation-main-container{
+        padding: 0 1% 0 0;
+        gap: 7px;
+    }
+    .style-navigation-1{
+        font-size: 11px;
+    }
+    .style-navigation-2{
+        font-size: 11px;
+    }
+    .style-navigation-3{
+        display: none;
+    }
+    .style-navigation-4{
+        display: none;
+    } 
+    .style-navigation-button{
+        width: 40px;
+        height: 40px;
+    }
+}
+

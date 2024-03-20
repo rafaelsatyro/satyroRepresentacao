@@ -1,0 +1,52 @@
+.main-container-footer{
+    padding: 3% 0 0 0;
+}
+.container-footer{
+    height: 80px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-anchor{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.footer-content{
+    font-size: 16px;
+    color: black;
+}
+/* Tablet CSS */ 
+@media (min-width:768px) and (max-width:1023px) {
+    .footer-content{
+        font-size: 14px;
+    }
+ }
+ /* Mobile Large CSS */ 
+@media (min-width:425px) and (max-width:767px){ 
+    .footer-content{
+        font-size: 12px;
+    }
+}
+/* Mopbile Medium CSS */
+@media (min-width:375px) and (max-width:766px){  
+    .footer-anchor{
+        padding: 0 5% 0 5%;
+        text-align: center;
+    }
+    .footer-content{
+        font-size: 12px;
+    }
+}
+/* Mobile Small CSS */
+@media (max-width:374px){ 
+    .footer-anchor{
+        padding: 0 5% 0 5%;
+        text-align: center;
+    }
+    .footer-content{
+        font-size: 12px;
+    }
+ }
+ 

@@ -1,0 +1,77 @@
+body {
+   background-color: #014679;
+}
+a {
+   transition: all 2.5s ease-in-out; 
+   text-decoration: none;
+}
+html {
+   scroll-behavior: smooth;
+}
+.whats-button{
+   width: 100px;
+   height: 100px;
+   background-color:#00B266;
+   border-radius: 70px;
+   border: 1px solid white;
+   position: fixed; 
+   bottom: 20px;    
+   right: 20px;     
+   z-index: 1000;
+   cursor: pointer; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   transition-duration: 0.5s; 
+}
+.whats-button:hover{
+   width: 125px;
+   height: 125px;
+}
+.whats-icon{
+   width: 50px;
+   transition-duration: 0.5s; 
+}
+.whats-button:hover .whats-icon{
+   width: 75px; 
+}
+
+@media (min-width:1024px) and (max-width:1439px) {
+   .whats-button{
+      width: 80px;
+      height: 80px;
+   }
+   .whats-icon{
+      width: 40px;
+   }
+}
+/* Tablet CSS */ 
+@media (min-width:768px) and (max-width:1023px) {
+   .whats-button{
+      width: 70px;
+      height: 70px;
+   }
+   .whats-icon{
+      width: 35px;
+   }
+}
+/* Mobile Large CSS */ 
+@media (min-width:425px) and (max-width:767px){ 
+   .whats-button{
+     display: none;
+   }
+}
+/* Mopbile Medium CSS */
+@media (min-width:375px) and (max-width:766px){  
+   .whats-button{
+      display: none;
+   }
+}
+/* Mobile Small CSS */
+@media (max-width:374px){ 
+   .whats-button{
+      display: none;
+   }
+}
+
+
